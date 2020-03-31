@@ -662,18 +662,18 @@ body {
 }
 
 .background-section .background-image1 {
-  background-image: url(/images/background01.webp);
+  background-image: url(../images/background01.webp);
 }
 
 .background-section .background-image2 {
-  background-image: url(/images/background02.webp);
+  background-image: url(../images/background02.webp);
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
 .background-section .background-image3 {
-  background-image: url(/images/background03.webp);
+  background-image: url(../images/background03.webp);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -826,23 +826,23 @@ body {
 }
 
 .welcome-section .projects-container .project .project-image1 {
-  background-image: url(/images/project01.webp);
+  background-image: url(../images/project01.webp);
 }
 
 .welcome-section .projects-container .project .project-image2 {
-  background-image: url(/images/project02.webp);
+  background-image: url(../images/project02.webp);
 }
 
 .welcome-section .projects-container .project .project-image3 {
-  background-image: url(/images/project03.webp);
+  background-image: url(../images/project03.webp);
 }
 
 .welcome-section .projects-container .project .project-image4 {
-  background-image: url(/images/project04.webp);
+  background-image: url(../images/project04.webp);
 }
 
 .welcome-section .projects-container .project .project-image5 {
-  background-image: url(/images/project05.webp);
+  background-image: url(../images/project05.webp);
 }
 
 .welcome-section .projects-container .project:hover .project-image {
@@ -1013,43 +1013,43 @@ body {
 }
 
 .clients-section .clients-wrapper .client .client-image1 {
-  background-image: url(/images/clients01.webp);
+  background-image: url(../images/clients01.webp);
 }
 
 .clients-section .clients-wrapper .client .client-image2 {
-  background-image: url(/images/clients02.webp);
+  background-image: url(../images/clients02.webp);
 }
 
 .clients-section .clients-wrapper .client .client-image3 {
-  background-image: url(/images/clients03.webp);
+  background-image: url(../images/clients03.webp);
 }
 
 .clients-section .clients-wrapper .client .client-image4 {
-  background-image: url(/images/clients04.webp);
+  background-image: url(../images/clients04.webp);
 }
 
 .clients-section .clients-wrapper .client .client-image5 {
-  background-image: url(/images/clients05.webp);
+  background-image: url(../images/clients05.webp);
 }
 
 .clients-section .clients-wrapper .client .client-image6 {
-  background-image: url(/images/clients06.webp);
+  background-image: url(../images/clients06.webp);
 }
 
 .clients-section .clients-wrapper .client .client-image7 {
-  background-image: url(/images/clients07.webp);
+  background-image: url(../images/clients07.webp);
 }
 
 .clients-section .clients-wrapper .client .client-image8 {
-  background-image: url(/images/clients08.webp);
+  background-image: url(../images/clients08.webp);
 }
 
 .clients-section .clients-wrapper .client .client-image9 {
-  background-image: url(/images/clients09.webp);
+  background-image: url(../images/clients09.webp);
 }
 
 .clients-section .clients-wrapper .client .client-image10 {
-  background-image: url(/images/clients10.webp);
+  background-image: url(../images/clients10.webp);
 }
 
 .clients-section .clients-wrapper .client6,
@@ -1145,19 +1145,19 @@ body {
 }
 
 .news-section .articles-wrapper .article .article-image1 {
-  background-image: url(/images/news01.webp);
+  background-image: url(../images/news01.webp);
 }
 
 .news-section .articles-wrapper .article .article-image2 {
-  background-image: url(/images/news02.webp);
+  background-image: url(../images/news02.webp);
 }
 
 .news-section .articles-wrapper .article .article-image3 {
-  background-image: url(/images/news03.webp);
+  background-image: url(../images/news03.webp);
 }
 
 .news-section .articles-wrapper .article .article-image4 {
-  background-image: url(/images/news04.webp);
+  background-image: url(../images/news04.webp);
 }
 
 .news-section .articles-wrapper .article .article-text {

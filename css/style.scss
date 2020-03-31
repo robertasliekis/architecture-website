@@ -439,14 +439,14 @@ body {
   }
 
   .background-image1 {
-    background-image: url(/images/background01.webp);
+    background-image: url(../images/background01.webp);
   }
   .background-image2 {
-    background-image: url(/images/background02.webp);
+    background-image: url(../images/background02.webp);
     justify-content: flex-end;
   }
   .background-image3 {
-    background-image: url(/images/background03.webp);
+    background-image: url(../images/background03.webp);
     flex-direction: column;
     align-items: flex-start;
   }
@@ -543,19 +543,19 @@ body {
         }
       }
       .project-image1 {
-        background-image: url(/images/project01.webp);
+        background-image: url(../images/project01.webp);
       }
       .project-image2 {
-        background-image: url(/images/project02.webp);
+        background-image: url(../images/project02.webp);
       }
       .project-image3 {
-        background-image: url(/images/project03.webp);
+        background-image: url(../images/project03.webp);
       }
       .project-image4 {
-        background-image: url(/images/project04.webp);
+        background-image: url(../images/project04.webp);
       }
       .project-image5 {
-        background-image: url(/images/project05.webp);
+        background-image: url(../images/project05.webp);
       }
     }
     .project:hover {
@@ -651,34 +651,34 @@ body {
         text-align: center;
       }
       .client-image1 {
-        background-image: url(/images/clients01.webp);
+        background-image: url(../images/clients01.webp);
       }
       .client-image2 {
-        background-image: url(/images/clients02.webp);
+        background-image: url(../images/clients02.webp);
       }
       .client-image3 {
-        background-image: url(/images/clients03.webp);
+        background-image: url(../images/clients03.webp);
       }
       .client-image4 {
-        background-image: url(/images/clients04.webp);
+        background-image: url(../images/clients04.webp);
       }
       .client-image5 {
-        background-image: url(/images/clients05.webp);
+        background-image: url(../images/clients05.webp);
       }
       .client-image6 {
-        background-image: url(/images/clients06.webp);
+        background-image: url(../images/clients06.webp);
       }
       .client-image7 {
-        background-image: url(/images/clients07.webp);
+        background-image: url(../images/clients07.webp);
       }
       .client-image8 {
-        background-image: url(/images/clients08.webp);
+        background-image: url(../images/clients08.webp);
       }
       .client-image9 {
-        background-image: url(/images/clients09.webp);
+        background-image: url(../images/clients09.webp);
       }
       .client-image10 {
-        background-image: url(/images/clients10.webp);
+        background-image: url(../images/clients10.webp);
       }
     }
     .client6,
@@ -727,16 +727,16 @@ body {
         width: 35%;
       }
       .article-image1 {
-        background-image: url(/images/news01.webp);
+        background-image: url(../images/news01.webp);
       }
       .article-image2 {
-        background-image: url(/images/news02.webp);
+        background-image: url(../images/news02.webp);
       }
       .article-image3 {
-        background-image: url(/images/news03.webp);
+        background-image: url(../images/news03.webp);
       }
       .article-image4 {
-        background-image: url(/images/news04.webp);
+        background-image: url(../images/news04.webp);
       }
       .article-text {
         @include flexCenterColumn();
