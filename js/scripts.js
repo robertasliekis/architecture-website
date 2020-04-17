@@ -190,14 +190,9 @@ $(function () {
         }
       }
     });
-    console.log("paveikslelio aukstis1 " + $(images[0]).height());
 
     setInterval(
       (window.onresize = function (event) {
-        // console.log("keista" + window.innerWidth);
-        //console.log("keista" + window.innerHeight);
-        console.log("paveikslelio aukstis2 " + $(images[0]).height());
-
         projectsContainerSize = imagesSum("project") + 1;
         exteriorContainerSize = imagesSum("exterior") + 1;
         interiorContainerSize = imagesSum("interior") + 1;
