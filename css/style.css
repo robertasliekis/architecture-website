@@ -1453,8 +1453,7 @@ body {
 }
 
 .footer-section .button-arrow:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  font-size: 2rem;
 }
 
 .footer-section .social-media-icons {
