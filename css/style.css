@@ -1145,15 +1145,11 @@ body {
 .specializations-section .specialization h2,
 .specializations-section .specialization p {
   width: 50%;
+  color: white;
 }
 
 .specializations-section .specialization h2 {
   text-align: left;
-  color: white;
-}
-
-.specializations-section .specialization p {
-  color: var(--global-color-grey);
 }
 
 .clients-section {
