@@ -12,18 +12,25 @@
     <title>Swift Architects</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body class="index">
     <div class="website-wrapper">
+      <!-- Website transition background start -->
+      <div class="website-transition-container">
+        <div class="transition-background"></div>
+        <div class="transition-background-open"></div>
+      </div>
+      <!-- Website transition background end -->
+
       <!-- navigation bar start -->
       <div class="navbar-wrapper">
         <div class="navbar container">
-          <div class="website-logo">
+          <a href="/index.html" class="website-logo">
             <div class="website-logo-icon"></div>
             <div class="website-logo-text">
               <div>SWIFT</div>
               <div>ARCHITECTS</div>
             </div>
-          </div>
+          </a>
           <div class="burger-menu">
             <div class="line line1"></div>
             <div class="line line3"></div>
@@ -37,23 +44,20 @@
       <div class="overlay-menu-wrapper">
         <div class="overlay-menu container">
           <div class="overlay-menu-list">
-            <a href="#" class="menu-item">
+            <a href="/index.html" class="menu-item">
               <div class="menu-item-name">Home</div>
             </a>
-            <a href="#" class="menu-item">
+            <a href="/projects.html" class="menu-item">
               <div class="menu-item-name">Projects</div>
             </a>
-            <a href="#" class="menu-item">
+            <a href="/studio.html" class="menu-item">
               <div class="menu-item-name">Studio</div>
             </a>
-            <a href="#" class="menu-item">
+            <a href="/news.html" class="menu-item">
               <div class="menu-item-name">News</div>
             </a>
-            <a href="#" class="menu-item">
+            <a href="/contact.html" class="menu-item">
               <div class="menu-item-name">Contact</div>
-            </a>
-            <a href="#" class="menu-item">
-              <div class="menu-item-name">Purchase</div>
             </a>
           </div>
           <div class="overlay-menu-footer">
@@ -61,14 +65,37 @@
               © Copyright 2020
             </div>
             <div class="social-media-icons">
-              <a href="#" aria-label="facebook" class="circle"
+              <a
+                rel="noopener"
+                href="https://facebook.com/"
+                target="_blank"
+                aria-label="facebook"
+                class="circle"
                 ><i class="fab fa-facebook-f icon"></i
               ></a>
-              <a href="#" aria-label="twitter" class="circle"
+              <a
+                rel="noopener"
+                href="https://twitter.com/"
+                target="_blank"
+                aria-label="twitter"
+                class="circle"
                 ><i class="fab fa-twitter icon"></i
               ></a>
-              <a href="#" aria-label="instagram" class="circle"
+              <a
+                rel="noopener"
+                href="https://www.instagram.com/"
+                target="_blank"
+                aria-label="instagram"
+                class="circle"
                 ><i class="fab fa-instagram icon"></i
+              ></a>
+              <a
+                rel="noopener"
+                href="https://www.houzz.com/"
+                target="_blank"
+                aria-label="houzz"
+                class="circle"
+                ><i class="fab fa-houzz icon"></i
               ></a>
             </div>
           </div>
@@ -87,7 +114,7 @@
           </h1>
         </div>
         <div class="background-image background-image2 container">
-          <h1 class="background-text background-text2 ">
+          <h1 class="background-text background-text2">
             <span class="text-line text-line1"
               >architecture at it's finest.</span
             >
@@ -105,11 +132,6 @@
               we will bring it to reality
             </span>
           </h1>
-          <div class="button">
-            <a href="">
-              Design Project<i class="fas fa-long-arrow-alt-right icon"></i
-            ></a>
-          </div>
         </div>
         <div class="carousel-dots">
           <div class="dot dot1 dot-active" id="dot1">
@@ -126,7 +148,7 @@
       <!-- Background image end -->
 
       <!-- Welcome section start -->
-      <div class="welcome-section container">
+      <div class="projects-section container">
         <div class="section-header">
           <h1>Welcome</h1>
           <p>
@@ -138,43 +160,63 @@
           </p>
         </div>
         <div class="projects-container">
-          <div class="project project1">
+          <a
+            aria-label="project"
+            href="/project1.html"
+            class="project project1"
+          >
             <div class="project-image project-image1"></div>
             <div class="project-text">
               <h2>House in Bristol</h2>
               <p>Exterior Design and Landscaping</p>
             </div>
-          </div>
-          <div class="project project2">
+          </a>
+          <a
+            aria-label="project"
+            href="/project1.html"
+            class="project project2"
+          >
             <div class="project-image project-image2"></div>
             <div class="project-text">
               <h2>Residence</h2>
               <p>Planning</p>
             </div>
-          </div>
-          <div class="project project3">
+          </a>
+          <a
+            aria-label="project"
+            href="/project1.html"
+            class="project project3"
+          >
             <div class="project-image project-image3"></div>
             <div class="project-text">
               <h2>House in York</h2>
               <p>Exterior design</p>
             </div>
-          </div>
-          <div class="project project4">
+          </a>
+          <a
+            aria-label="project"
+            href="/project1.html"
+            class="project project4"
+          >
             <div class="project-image project-image4"></div>
             <div class="project-text">
               <h2>Residence in Southampton</h2>
               <p>Interior Design</p>
             </div>
-          </div>
-          <div class="project project5">
+          </a>
+          <a
+            aria-label="project"
+            href="/project1.html"
+            class="project project5"
+          >
             <div class="project-image project-image5"></div>
             <div class="project-text">
               <h2>Watch Tower</h2>
               <p>Founding Creators</p>
             </div>
-          </div>
+          </a>
         </div>
-        <a href="" class="button-arrow"
+        <a aria-label="project" href="/projects.html" class="button-arrow"
           >See our latest projects
           <i class="fas fa-long-arrow-alt-right icon"></i
         ></a>
@@ -316,11 +358,11 @@
             </div>
           </div>
         </div>
-        <a href="" class="button-arrow">
+        <a aria-label="button" href="" class="button-arrow">
           More News <i class="fas fa-long-arrow-alt-right icon"></i>
         </a>
       </div>
-      <!-- News section ned -->
+      <!-- News section end -->
 
       <!-- Footer section start -->
       <div class="footer-section container">
@@ -332,19 +374,35 @@
         </div>
 
         <div class="social-media-icons">
-          <a href="" class="icon"
+          <a
+            aria-label="social-media"
+            href="https://facebook.com/"
+            target="_blank"
+            class="icon button-text"
             >Facebook
             <div class="line"></div
           ></a>
-          <a href="" class="icon"
+          <a
+            aria-label="social-media"
+            href="https://instagram.com/"
+            target="_blank"
+            class="icon button-text"
             >Instagram
             <div class="line"></div
           ></a>
-          <a href="" class="icon"
+          <a
+            aria-label="social-media"
+            href="https://twitter.com/"
+            target="_blank"
+            class="icon button-text"
             >Twitter
             <div class="line"></div
           ></a>
-          <a href="" class="icon"
+          <a
+            aria-label="social-media"
+            href="https://houzz.com/"
+            target="_blank"
+            class="icon button-text"
             >Houzz
             <div class="line"></div
           ></a>
@@ -355,7 +413,10 @@
 
     <!-- Script Source -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
