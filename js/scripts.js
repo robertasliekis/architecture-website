@@ -58,7 +58,7 @@ var timesClicked = 0;
 var scrollTop1 = 0;
 var scrollTop2 = 0;
 $(".burger-menu").click(function () {
-  //var scrollTop1 = $(window).scrollTop();
+  var scrollTop1 = $(window).scrollTop();
   if (timesClicked % 2 != 0) {
     burger.classList.toggle("burger-menu-animation");
     burger.classList.toggle("burger-active");
