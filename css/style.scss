@@ -18,7 +18,7 @@
   --global-color-orange: orange;
   --global-color-grey: grey;
   --global-color-grey-light: rgb(182, 182, 182);
-  --scroll-bar-width: 50px;
+  --scroll-bar-width: 25px;
 }
 
 img {
@@ -75,7 +75,6 @@ body {
 body {
   //padding-left: var(--scroll-bar-width);
   width: calc(100vw - var(--scroll-bar-width));
-  width: 90vw;
   //width: 100vw;
   //overflow: hidden;
   //width: 100%;
