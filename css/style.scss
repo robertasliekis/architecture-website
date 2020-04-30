@@ -12,7 +12,7 @@
 
 :root {
   --global-color-text: rgb(49, 49, 49);
-  --global-color-background: black;
+  --global-color-background: rgb(48, 48, 48);
   --global-padding-left-right: 20%;
   --global-container-width1: 65%;
   --global-color-orange: orange;
@@ -126,9 +126,6 @@ body {
   transition: 0.3s all ease;
   cursor: pointer;
 }
-.button-arrow:hover {
-  color: var(--global-color-grey);
-}
 
 .button-text {
   @include flexCenterColumn();
@@ -138,18 +135,155 @@ body {
   .line {
     width: 0%;
     height: 1px;
-    background-color: var(--global-color-grey);
+    background-color: var(--global-color-orange);
     transition: 0.5s all ease;
   }
 }
 
-.button-text:hover {
-  color: var(--global-color-orange);
-  .line {
-    width: 100%;
-    background-color: var(--global-color-orange);
+//Hover function for devices with bigger width than 1024
+@media only screen and (min-width: 1025px) {
+  .button-arrow:hover {
+    color: var(--global-color-orange);
+  }
+
+  .button-arrow-up:hover {
+    font-size: 2.5rem;
+  }
+
+  .button-text:hover {
+    color: var(--global-color-orange);
+    .line {
+      width: 100%;
+      background-color: var(--global-color-orange);
+    }
+  }
+
+  .pages-scroll-bar {
+    .gallery-button:hover {
+      height: 1.7rem;
+      width: 1.7rem;
+      .cube {
+        background-color: var(--global-color-orange);
+      }
+    }
+  }
+
+  .navbar {
+    .website-logo:hover {
+      .website-logo-icon {
+        background-image: url(../images/logo02.webp);
+      }
+      .website-logo-text {
+        color: var(--global-color-orange);
+      }
+    }
+  }
+
+  .navbar-wrapper {
+    .navbar {
+      .burger-menu:hover {
+        height: 1.5rem;
+        .line {
+          background-color: var(--global-color-orange);
+        }
+      }
+    }
+  }
+
+  .burger-active:hover {
+    .line {
+      width: 2.2rem !important;
+      background-color: var(--global-color-orange) !important;
+    }
+  }
+
+  .menu-item-name:hover {
+    color: var(--global-color-orange);
+  }
+
+  .overlay-menu {
+    .overlay-menu-footer {
+      .social-media-icons {
+        .circle:hover {
+          .icon {
+            color: orange;
+          }
+        }
+      }
+    }
+  }
+
+  .button:hover {
+    background-color: rgba($color: #ffffff, $alpha: 0.3);
+  }
+
+  .background-section {
+    .carousel-dots {
+      .dot:hover {
+        .dot-inside {
+          width: 110%;
+          height: 110%;
+        }
+      }
+    }
+  }
+
+  .projects-section {
+    .projects-container {
+      .project:hover {
+        .project-image {
+          opacity: 0.2;
+        }
+        .project-text {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .clients-section {
+    .clients-wrapper {
+      .client:hover {
+        .client-image {
+          opacity: 0.1;
+        }
+        .client-text {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .news-section {
+    .articles-wrapper {
+      .article:hover {
+        background-color: rgba($color: #000000, $alpha: 0.05);
+      }
+    }
+  }
+
+  .news-section-page {
+    .articles-wrapper {
+      .article {
+        .article-image:hover {
+          opacity: 0.2;
+        }
+      }
+      .article:hover {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .icon:hover {
+    color: var(--global-color-orange);
+  }
+
+  .article:hover {
+    background-color: transparent;
   }
 }
+//Hover function for devices with bigger width than 1024
 
 .light-font {
   font-weight: 100;
@@ -166,7 +300,7 @@ body {
     position: relative;
     width: 1.5rem;
     height: 1.5rem;
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
     .cube {
       position: absolute;
       height: 0.65rem;
@@ -189,13 +323,6 @@ body {
     .cube4 {
       bottom: 0;
       left: 0;
-    }
-  }
-  .gallery-button:hover {
-    height: 1.7rem;
-    width: 1.7rem;
-    .cube {
-      background-color: var(--global-color-orange);
     }
   }
 }
@@ -280,24 +407,26 @@ body {
       background-size: cover;
       width: 5rem;
       height: 4rem;
+      transition: 0.3s all ease;
     }
     .website-logo-text {
       @include flexCenterColumn();
       align-items: flex-start;
       margin-left: 0.5rem;
+      transition: 0.3s all ease;
     }
   }
   .burger-menu {
     position: relative;
     height: 1rem;
-    width: 2rem;
+    width: 2.5rem;
     cursor: pointer;
     transition: 0.2s all ease;
     .line {
       position: absolute;
       transform: translate(0, 0);
-      width: 2rem;
-      height: 0.15rem;
+      width: 2.5rem;
+      height: 0.2rem;
       border-radius: 0.1rem;
       background-color: black;
       transition: 0.2s all ease;
@@ -315,18 +444,7 @@ body {
       bottom: 0;
     }
   }
-  .burger-menu:hover {
-    height: 1.5rem;
-    .line {
-      background-color: var(--global-color-orange);
-    }
-    .line1 {
-      width: 2rem;
-    }
-    .line2 {
-      width: 2rem;
-    }
-  }
+
   .burger-menu-close {
     position: absolute;
     top: 0;
@@ -344,7 +462,7 @@ body {
 
   .line {
     background-color: black !important;
-    width: 2rem !important;
+    width: 2.5rem !important;
   }
 }
 
@@ -361,13 +479,6 @@ body {
     transform: translate(-50%, -50%) rotate(-45deg) !important;
     top: 50% !important;
     left: 50% !important;
-  }
-}
-
-.burger-active:hover {
-  .line {
-    width: 1.7rem !important;
-    background-color: var(--global-color-orange) !important;
   }
 }
 
@@ -433,9 +544,6 @@ body {
     .menu-item-name {
       transition: 0.5s all ease;
     }
-    .menu-item-name:hover {
-      color: var(--global-color-orange);
-    }
   }
 
   .overlay-menu-footer {
@@ -457,11 +565,6 @@ body {
         .icon {
           transition: 0.5s all ease;
           color: white;
-        }
-      }
-      .circle:hover {
-        .icon {
-          color: orange;
         }
       }
     }
@@ -604,9 +707,6 @@ body {
         margin-left: 0.5rem;
       }
     }
-    .button:hover {
-      background-color: rgba($color: #ffffff, $alpha: 0.3);
-    }
   }
 
   .text-black {
@@ -669,12 +769,6 @@ body {
         transition: all 0.5s ease;
       }
     }
-    .dot:hover {
-      .dot-inside {
-        width: 110%;
-        height: 110%;
-      }
-    }
 
     .dot-active {
       background-color: white;
@@ -714,10 +808,11 @@ body {
       }
       .project-text {
         position: absolute;
-        bottom: 2rem;
-        left: 2rem;
         opacity: 0;
         transition: 0.5s all ease;
+        bottom: 0;
+        padding: 1rem;
+
         p {
           margin-top: 0.5rem;
           color: var(--global-color-grey);
@@ -754,20 +849,12 @@ body {
         background-image: url(../images/project10.webp);
       }
     }
-    .project:hover {
-      .project-image {
-        opacity: 0.2;
-      }
-      .project-text {
-        opacity: 1;
-      }
-    }
 
     .project1 {
-      width: 73.5%;
+      width: 55%;
     }
     .project2 {
-      width: 24%;
+      width: 42.5%;
     }
     .project3 {
       width: 27%;
@@ -785,7 +872,7 @@ body {
 //Specializations section start
 .specializations-section {
   @include flexCenterColumn();
-  background-color: rgb(48, 48, 48);
+  background-color: var(--global-color-background);
   .specialization {
     @include flexCenter();
     justify-content: space-between;
@@ -796,13 +883,10 @@ body {
     h2,
     p {
       width: 50%;
+      color: white;
     }
     h2 {
       text-align: left;
-      color: white;
-    }
-    p {
-      color: var(--global-color-grey);
     }
   }
 }
@@ -884,14 +968,6 @@ body {
     .client10 {
       margin-bottom: 0;
     }
-    .client:hover {
-      .client-image {
-        opacity: 0.1;
-      }
-      .client-text {
-        opacity: 1;
-      }
-    }
   }
 }
 //Clients section end
@@ -923,9 +999,7 @@ body {
         width: 35%;
         transition: 0.5s all ease;
       }
-      .article-image:hover {
-        opacity: 0.2;
-      }
+
       .article-image1 {
         background-image: url(../images/news01.webp);
       }
@@ -947,9 +1021,6 @@ body {
         padding: 0 1rem;
       }
     }
-    .article:hover {
-      background-color: rgba($color: #000000, $alpha: 0.1);
-    }
   }
 }
 //News section end
@@ -969,20 +1040,14 @@ body {
     left: 50%;
   }
 
-  .button-arrow:hover {
-    transform: scale(1.2);
-  }
   .social-media-icons {
     @include flexCenter();
     justify-content: space-between;
     .icon {
       margin-left: 0.5rem;
       .line {
-        background-color: var(--global-color-grey);
+        background-color: var(--global-color-orange);
       }
-    }
-    .icon:hover {
-      color: var(--global-color-grey);
     }
   }
 }
@@ -1318,9 +1383,6 @@ body {
         }
       }
     }
-    .article:hover {
-      background-color: transparent;
-    }
   }
 }
 //news.html page end
@@ -1474,6 +1536,20 @@ body {
 
   .projects-section {
     .projects-container {
+      .project {
+        .project-image {
+          opacity: 1;
+        }
+        .project-text {
+          width: 100%;
+          opacity: 1;
+          h2,
+          p {
+            color: white;
+          }
+          background-color: rgba($color: #000000, $alpha: 0.5);
+        }
+      }
       .project1 {
         width: 100%;
       }
@@ -1534,6 +1610,12 @@ body {
     }
   }
   //project1.html page end
+
+  //studio.html page start
+  .awards-section {
+    height: 32rem;
+  }
+  //studio.html page end
 }
 
 @media only screen and (max-width: 768px) {
@@ -1720,7 +1802,7 @@ body {
   .projects-section {
     .projects-container {
       .project {
-        height: 12rem;
+        height: 25rem;
         margin-bottom: 1rem;
         .project-image1 {
           background-position: 50% 60%;
