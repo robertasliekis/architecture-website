@@ -75,9 +75,6 @@ body {
 body {
   //padding-left: var(--scroll-bar-width);
   width: calc(100vw - var(--scroll-bar-width));
-  //width: 100vw;
-  //overflow: hidden;
-  //width: 100%;
 }
 
 @mixin flexCenter {
@@ -389,7 +386,7 @@ body {
 }
 
 .scroll-disabled {
-  height: 100vh;
+  height: calc(100vh - 56px);
   overflow: hidden;
   justify-content: flex-start;
 }
