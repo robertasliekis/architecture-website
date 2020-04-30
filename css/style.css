@@ -567,7 +567,7 @@ body {
   top: 0;
   -webkit-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
-  width: 100%;
+  width: calc(100vw - 17px);
   height: 0;
   z-index: -1;
   opacity: 0;
