@@ -28,22 +28,27 @@ var mainNav = $(".navbar-wrapper");
 navbarHeight = $(".navbar").height();
 
 $(window).scroll(function () {
-  if ($(window).scrollTop() > navbarHeight * 2) {
-    mainNav.addClass("burger-menu-sticky1");
-  } else {
-    mainNav.removeClass("burger-menu-sticky1");
+  if (
+    !document
+      .getElementById("website-wrapper")
+      .classList.contains("scroll-disabled")
+  ) {
+    if ($(window).scrollTop() > navbarHeight * 2) {
+      mainNav.addClass("burger-menu-sticky1");
+    } else {
+      mainNav.removeClass("burger-menu-sticky1");
+    }
+    if ($(window).scrollTop() > navbarHeight * 4) {
+      mainNav.addClass("burger-menu-sticky2");
+    } else {
+      mainNav.removeClass("burger-menu-sticky2");
+    }
+    if ($(window).scrollTop() > navbarHeight * 6) {
+      mainNav.addClass("burger-menu-inView");
+    } else {
+      mainNav.removeClass("burger-menu-inView");
+    }
   }
-  if ($(window).scrollTop() > navbarHeight * 4) {
-    mainNav.addClass("burger-menu-sticky2");
-  } else {
-    mainNav.removeClass("burger-menu-sticky2");
-  }
-  if ($(window).scrollTop() > navbarHeight * 6) {
-    mainNav.addClass("burger-menu-inView");
-  } else {
-    mainNav.removeClass("burger-menu-inView");
-  }
-  console.log($(window).scrollTop() + " tikra");
 });
 //Sticky nav bar end
 
@@ -54,17 +59,15 @@ var scrollTop1 = 0;
 var scrollTop2 = 0;
 $(".burger-menu").click(function () {
   var scrollTop1 = $(window).scrollTop();
-
   if (timesClicked % 2 != 0) {
     burger.classList.toggle("burger-menu-animation");
     burger.classList.toggle("burger-active");
     $(".menu-item").addClass("animation-reverse");
     $(".overlay-menu-wrapper").addClass("overlay-menu-invisible");
     $(".overlay-menu-wrapper").removeClass("overlay-menu-visible");
-    if (window.innerWidth <= 1024) {
+    if (window.innerWidth <= 10024) {
       $(".website-wrapper").removeClass("scroll-disabled");
       document.getElementById("background-section").style.marginTop = "0px";
-      console.log(scrollTop2 + " gera2");
       window.scrollTo(0, scrollTop2);
     }
   } else {
@@ -76,7 +79,7 @@ $(".burger-menu").click(function () {
     burger.classList.toggle("burger-menu-animation");
     $(".menu-item").addClass("menu-item-display");
     $(".overlay-menu-wrapper").addClass("overlay-menu-visible");
-    if (window.innerWidth <= 1024) {
+    if (window.innerWidth <= 10024) {
       document.getElementById("background-section").style.marginTop =
         -scrollTop1 + "px";
       $(".website-wrapper").addClass("scroll-disabled ");
@@ -89,7 +92,6 @@ $(".burger-menu").click(function () {
   scrollTop2 = scrollTop1;
 });
 //Burger menu control end
-console;
 
 //Scroll to top button start
 const btnScrollToTop = document.querySelector("#btnScrollToTop");
