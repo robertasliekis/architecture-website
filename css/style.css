@@ -14,7 +14,7 @@
   --global-color-orange: orange;
   --global-color-grey: grey;
   --global-color-grey-light: rgb(182, 182, 182);
-  --scroll-bar-width: 22px;
+  --scroll-bar-width: 17px;
 }
 
 img {
@@ -60,11 +60,6 @@ input {
   font-weight: 200;
 }
 
-body {
-  padding-left: var(--scroll-bar-width);
-  width: calc(100vw - var(--scroll-bar-width));
-}
-
 html,
 body {
   padding: 0;
@@ -72,6 +67,10 @@ body {
   font-family: "Barlow", Helvetica, Sans-Serif;
   font-weight: 200;
   font-size: 1.1rem;
+}
+
+body {
+  width: calc(100vw - var(--scroll-bar-width));
 }
 
 .container {
