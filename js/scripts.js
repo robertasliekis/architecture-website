@@ -58,7 +58,9 @@ var timesClicked = 0;
 var scrollTop1 = 0;
 var scrollTop2 = 0;
 $(".burger-menu").click(function () {
+
   var scrollTop1 = $(window).scrollTop();
+
   if (timesClicked % 2 != 0) {
     burger.classList.toggle("burger-menu-animation");
     burger.classList.toggle("burger-active");
@@ -67,8 +69,9 @@ $(".burger-menu").click(function () {
     $(".overlay-menu-wrapper").removeClass("overlay-menu-visible");
 
     $(".website-wrapper").removeClass("scroll-disabled");
-    document.getElementById("background-section").style.marginTop = "0px";
+    document.getElementById("empty-section").style.marginTop = "0px";
     window.scrollTo(0, scrollTop2);
+    
   } else {
     $(".overlay-menu-wrapper").removeClass("overlay-menu-invisible");
     $(".overlay-menu").addClass("keyframes-forward");
@@ -79,7 +82,7 @@ $(".burger-menu").click(function () {
     $(".menu-item").addClass("menu-item-display");
     $(".overlay-menu-wrapper").addClass("overlay-menu-visible");
 
-    document.getElementById("background-section").style.marginTop =
+    document.getElementById("empty-section").style.marginTop =
       -scrollTop1 + "px";
     $(".website-wrapper").addClass("scroll-disabled ");
   }
