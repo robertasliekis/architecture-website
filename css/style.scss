@@ -18,7 +18,8 @@
   --global-color-orange: orange;
   --global-color-grey: grey;
   --global-color-grey-light: rgb(182, 182, 182);
-  --global-color-white: white;
+  --scroll-bar-width: 17px;
+  scrollbar-width: 8rem;
 }
 
 img {
@@ -64,8 +65,8 @@ input {
 }
 
 body {
-  padding-left: 17px;
-  width: calc(100vw - 17px);
+  padding-left: var(--scroll-bar-width);
+  width: calc(100vw - var(--scroll-bar-width));
 }
 
 html,
@@ -376,6 +377,7 @@ body {
 //Website transition background end
 
 //Navigation bar start
+
 .website-wrapper {
   width: 100%;
   background-color: white;
@@ -392,7 +394,7 @@ body {
 
 .navbar-wrapper {
   position: absolute;
-  width: calc(100vw - 17px);
+  width: calc(100vw - var(--scroll-bar-width));
   height: 0;
   top: 0;
   z-index: 3;
@@ -523,7 +525,7 @@ body {
   position: fixed;
   top: 0;
   transform: translate(0px, 0px);
-  width: calc(100vw - 17px);
+  width: calc(100vw - var(--scroll-bar-width));
   height: 0;
   z-index: -1;
   opacity: 0;
@@ -1041,7 +1043,7 @@ body {
   @include flexCenter();
   justify-content: space-between;
   height: 6rem;
-  width: calc(100vw - 17px);
+  width: calc(100vw - var(--scroll-bar-width));
 
   .button-arrow {
     position: absolute;
@@ -1536,7 +1538,15 @@ body {
 @media only screen and (max-width: 1024px) {
   :root {
     --global-padding-left-right: 5%;
+    --scroll-bar-width: 0px;
   }
+
+  /*body {
+    background-color: blue;
+  }
+  .website-wrapper {
+    background-color: red;
+  }*/
 
   .background-section {
     .background-image1 {
