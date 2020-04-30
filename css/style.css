@@ -71,6 +71,7 @@ body {
 
 body {
   width: calc(100vw - var(--scroll-bar-width));
+  width: 90vw;
 }
 
 .container {
