@@ -1,3 +1,11 @@
+if (window.innerWidth <= 1024) {
+  $(".overlay-menu").height(window.innerHeight);
+}
+
+window.addEventListener("resize", () => {
+  $(".overlay-menu").height(window.innerHeight);
+});
+
 //Background transition start
 $("a").click(function () {
   $(".transition-background").addClass("transition-background-active");
