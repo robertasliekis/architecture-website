@@ -384,6 +384,12 @@ body {
   padding-top: 10rem;
 }
 
+.scroll-disabled {
+  height: 100vh;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+
 .navbar-wrapper {
   position: absolute;
   width: calc(100vw - 17px);
@@ -1739,11 +1745,6 @@ body {
 }
 
 @media only screen and (max-width: 414px) {
-  .scroll-disabled {
-    height: 100vh;
-    overflow: hidden;
-    justify-content: flex-start;
-  }
   .pages-scroll-bar {
     margin-top: 1rem;
   }
