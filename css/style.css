@@ -351,6 +351,7 @@ body {
 
 .website-wrapper {
   width: 100%;
+  position: relative;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -379,7 +380,7 @@ body {
 
 .navbar-wrapper {
   position: absolute;
-  width: calc(100vw - var(--scroll-bar-width));
+  width: calc(100% - var(--scroll-bar-width));
   height: 0;
   top: 0;
   z-index: 3;
@@ -1448,7 +1449,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 6rem;
-  width: calc(100vw - var(--scroll-bar-width));
+  width: calc(100% - var(--scroll-bar-width));
 }
 
 .footer-section .button-arrow {
@@ -2390,15 +2391,9 @@ body {
 
 @media only screen and (max-width: 1024px) {
   :root {
-    --global-padding-left-right: 5%;
+    --global-padding-left-right: 2rem;
     --scroll-bar-width: 0px;
   }
-  /*body {
-    background-color: blue;
-  }
-  .website-wrapper {
-    background-color: red;
-  }*/
   .background-section .background-image1 {
     background-position: left;
   }
@@ -2587,6 +2582,9 @@ body {
 }
 
 @media only screen and (max-width: 414px) {
+  :root {
+    --global-padding-left-right: 1rem;
+  }
   .pages-scroll-bar {
     margin-top: 1rem;
   }
