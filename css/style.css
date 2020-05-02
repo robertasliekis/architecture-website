@@ -2794,7 +2794,8 @@ body {
     width: 100%;
   }
   .footer-section .button-arrow {
-    left: 97%;
+    left: 90%;
+    display: none;
   }
   .footer-section .social-media-icons {
     -webkit-box-pack: justify;
@@ -2804,7 +2805,7 @@ body {
         -ms-flex-order: 1;
             order: 1;
     margin-bottom: 1rem;
-    width: 90%;
+    width: 100%;
   }
   .projects-section-webpage .projects-section-top {
     padding-bottom: 1rem;
