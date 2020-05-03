@@ -115,6 +115,7 @@ body {
   h1,
   p {
     width: 50%;
+    text-align: justify;
   }
   h1 {
     text-align: left;
@@ -395,6 +396,7 @@ body {
 .navbar-wrapper {
   position: absolute;
   width: calc(100% - var(--scroll-bar-width));
+  width: 100%;
   height: 0;
   top: 0;
   z-index: 3;
@@ -896,6 +898,7 @@ body {
     p {
       width: 50%;
       color: white;
+      text-align: justify;
     }
     h2 {
       text-align: left;
@@ -1003,6 +1006,10 @@ body {
       height: 9rem;
       margin-bottom: 3rem;
       transition: 0.5s all ease;
+
+      p {
+        text-align: justify;
+      }
       cursor: pointer;
       .article-image {
         background-position: center;
@@ -1171,6 +1178,7 @@ body {
     p {
       width: 80%;
       margin-bottom: 1rem;
+      text-align: justify;
     }
   }
   .project-images-container {
@@ -1258,6 +1266,9 @@ body {
     justify-content: flex-start;
     h1 {
       margin-bottom: 3rem;
+    }
+    p {
+      text-align: justify;
     }
   }
   .team-section-text,
@@ -1417,6 +1428,9 @@ body {
     align-items: flex-start;
     h1 {
       margin: 1rem 0;
+    }
+    p {
+      text-align: justify;
     }
     .article-info {
       @include flexCenter();
