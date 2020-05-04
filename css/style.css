@@ -2671,7 +2671,7 @@ body {
     margin-top: 6rem;
   }
   .background-section {
-    height: calc(100vh - 5rem);
+    height: calc(100vh - 5rem - 56px);
   }
   .background-section .background-image {
     height: 100%;
