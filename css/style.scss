@@ -562,6 +562,8 @@ body {
     width: 100%;
     height: 5rem;
     border-top: 1px solid var(--global-color-grey-light);
+    transition: 0.5s all ease;
+    transition-delay: 1s;
     .social-media-icons {
       @include flexCenter();
       justify-content: space-between;
@@ -594,6 +596,9 @@ body {
   transition-delay: 1.9s;
   opacity: 0;
   z-index: -1;
+  .overlay-menu-footer {
+    opacity: 0;
+  }
 }
 
 .menu-item.animation-reverse {
@@ -1559,6 +1564,10 @@ body {
   }
 
   .background-section {
+    height: calc(100vh - 10rem - 56px);
+    .background-image {
+      height: 100%;
+    }
     .background-image1 {
       background-position: left;
     }
