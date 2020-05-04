@@ -1607,7 +1607,7 @@ body {
     height: 10rem;
   }
   .clients-content .view-clients-button {
-    margin-top: 0;
+    margin-top: 1rem;
   }
   .projects-content .projects .project {
     height: 25rem;
