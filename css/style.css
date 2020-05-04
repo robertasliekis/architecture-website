@@ -639,8 +639,8 @@ body {
   border-top: 1px solid var(--global-color-grey-light);
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
-  -webkit-transition-delay: 1s;
-          transition-delay: 1s;
+  -webkit-transition-delay: 1.4s;
+          transition-delay: 1.4s;
 }
 
 .overlay-menu .overlay-menu-footer .social-media-icons {
