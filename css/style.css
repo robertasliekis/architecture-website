@@ -2670,6 +2670,12 @@ body {
   .overlay-menu .overlay-menu-list {
     margin-top: 6rem;
   }
+  .background-section {
+    height: calc(100vh - 5rem);
+  }
+  .background-section .background-image {
+    height: 100%;
+  }
   .background-section .background-image .background-text {
     font-size: 2.5rem;
   }

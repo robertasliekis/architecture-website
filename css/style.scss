@@ -1817,7 +1817,9 @@ body {
   }
 
   .background-section {
+    height: calc(100vh - 5rem);
     .background-image {
+      height: 100%;
       .background-text {
         font-size: 2.5rem;
       }
