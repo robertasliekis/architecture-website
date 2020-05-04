@@ -80,10 +80,13 @@ $(".burger-menu").click(function () {
     $(".menu-item").addClass("menu-item-display");
     $(".overlay-menu-wrapper").addClass("overlay-menu-visible");
 
+    console.log($(window).scrollTop());
+
     document.getElementById("empty-section").style.marginTop =
       -scrollTop1 + "px";
     window.setTimeout(function () {
       $(".website-wrapper").addClass("scroll-disabled ");
+      mainNav.addClass("burger-menu-inView");
     }, 1000);
   }
   timesClicked++;
