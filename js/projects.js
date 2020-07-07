@@ -1,14 +1,9 @@
 //Projects visible script
 $(function () {
   if ($("body").is(".projects")) {
-    var projectsCount = document.querySelectorAll(".project-width").length;
-    var exteriorCount = document.querySelectorAll(".exterior").length;
-    var interiorCount = document.querySelectorAll(".interior").length;
-    var interiorCount = document.querySelectorAll(".planning").length;
+    let imageMarginBottom = 25;
 
-    imageMarginBottom = 25;
-
-    var projects = document.querySelectorAll("#project");
+    const projects = document.querySelectorAll("#project");
     const images = document.getElementsByClassName("project-image");
 
     var imagesSum = function (projectType) {
@@ -18,8 +13,8 @@ $(function () {
       var difference2 = 10000;
       var index1 = 0;
       var index2 = 0;
-      for (var a = 0; a < projects.length; a++) {
-        for (var i = 0; i < a; i++) {
+      for (let a = 0; a < projects.length; a++) {
+        for (let i = 0; i < a; i++) {
           if ($(projects[i]).hasClass(projectType)) {
             sum1 = sum1 + $(images[i]).height();
             index1++;
@@ -27,7 +22,7 @@ $(function () {
         }
         sum1 = sum1 + imageMarginBottom * index1;
 
-        for (var i = a; i < projects.length; i++) {
+        for (let i = a; i < projects.length; i++) {
           if ($(projects[i]).hasClass(projectType)) {
             sum2 = sum2 + $(images[i]).height();
             index2++;
@@ -59,18 +54,17 @@ $(function () {
       return conteinerHeight;
     };
 
-    var projectsButtons = document.querySelectorAll("#button");
     $(".button-text" + 1).addClass("active");
 
     $(".button-text").click(function () {
       let number = this.id;
-      var wordLength = number.length;
+      let wordLength = number.length;
       number = number.substring(wordLength - 1, wordLength);
-      for (i = 0; i <= 4; i++) {
+      for (let i = 0; i <= 4; i++) {
         if (number != i) {
-          $(".button-text" + i).removeClass("active");
+          $(`.button-text${i}`).removeClass("active");
         } else {
-          $(".button-text" + number).addClass("active");
+          $(`.button-text${number}`).addClass("active");
         }
       }
     });
@@ -81,25 +75,22 @@ $(function () {
         exteriorContainerSize = imagesSum("exterior") + 1;
         interiorContainerSize = imagesSum("interior") + 1;
         planningContainerSize = imagesSum("planning") + 1;
-
-        for (var i = 1; i <= 4; i++) {
-          if (
-            document
-              .querySelector(".button-text" + i)
-              .classList.contains("active")
-          ) {
+        var activeButtonCategory;
+        var activeContainerSize;
+        for (let i = 1; i <= 4; i++) {
+          if (document.querySelector(`.button-text${i}`).classList.contains("active")) {
             if (i == 1) {
-              var activeButtonCategory = "project";
-              var activeContainerSize = projectsContainerSize;
+              activeButtonCategory = "project";
+              activeContainerSize = projectsContainerSize;
             } else if (i == 2) {
-              var activeButtonCategory = "exterior";
-              var activeContainerSize = exteriorContainerSize;
+              activeButtonCategory = "exterior";
+              activeContainerSize = exteriorContainerSize;
             } else if (i == 3) {
-              var activeButtonCategory = "interior";
-              var activeContainerSize = interiorContainerSize;
+              activeButtonCategory = "interior";
+              activeContainerSize = interiorContainerSize;
             } else if (i == 4) {
-              var activeButtonCategory = "planning";
-              var activeContainerSize = planningContainerSize;
+              activeButtonCategory = "planning";
+              activeContainerSize = planningContainerSize;
             }
           }
         }
@@ -117,34 +108,31 @@ $(function () {
 
     function btnClick(projectType, containerSize) {
       // project position start
-
       ypos1 = 0;
       ypos2 = 0;
       xpos = 0;
       for (var i = 0; i < projects.length; i++) {
         if ($(projects[i]).hasClass(projectType)) {
           if (ypos1 + $(images[i]).height() < containerSize) {
-            projects[i].style.top = ypos1 + "px";
-            projects[i].style.left = xpos + "px";
+            projects[i].style.top = `${ypos1}px`;
+            projects[i].style.left = `${xpos}px`;
             ypos1 = ypos1 + $(images[i]).height() + imageMarginBottom;
           } else {
-            projects[i].style.top = ypos2 + "px";
-            projects[i].style.left = 51 + "%";
+            projects[i].style.top = `${ypos2}px`;
+            projects[i].style.left = "51%";
             ypos2 = ypos2 + $(images[i]).height() + imageMarginBottom;
           }
         } else {
-          projects[i].style.top = 50 + "%";
+          projects[i].style.top = "50%";
         }
       }
       // project position end
 
       $(projects).each(function () {
         if (!this.classList.contains(projectType)) {
-          $(this).addClass("project-invisible");
-          $(this).removeClass("project-visible");
+          $(this).addClass("project-invisible").removeClass("project-visible");
         } else {
-          $(this).addClass("project-visible");
-          $(this).removeClass("project-invisible");
+          $(this).addClass("project-visible").removeClass("project-invisible");
         }
       });
       $(".projects-container-column").height(containerSize);
