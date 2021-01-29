@@ -75,6 +75,9 @@ body {
 body {
   //padding-left: var(--scroll-bar-width);
   width: calc(100vw - var(--scroll-bar-width));
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 @mixin flexCenter {
@@ -1081,7 +1084,7 @@ body {
 //index.html page end
 
 //projects.html page start
-.projects-section-jpgage {
+.projects-section-webpage {
   padding-top: 0;
   .projects-section-top {
     @include flexCenterBetween();
@@ -1622,7 +1625,7 @@ body {
   }
 
   //projects.html start
-  .projects-section-jpgage {
+  .projects-section-webpage {
     .projects-container {
       .project {
         width: 48%;
@@ -1696,7 +1699,7 @@ body {
   }
 
   //projects.html start
-  .projects-section-jpgage {
+  .projects-section-webpage {
     padding-top: 0;
 
     .projects-section-top {
@@ -1957,7 +1960,7 @@ body {
   }
 
   //projects.html start
-  .projects-section-jpgage {
+  .projects-section-webpage {
     .projects-section-top {
       padding-bottom: 1rem;
       .projects-header {
@@ -2162,7 +2165,7 @@ body {
     }
   }
   //projects.html start
-  .projects-section-jpgage {
+  .projects-section-webpage {
     .projects-section-top {
       .projects-section-navigation {
         flex-wrap: wrap;

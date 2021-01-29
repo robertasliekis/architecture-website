@@ -71,6 +71,9 @@ body {
 
 body {
   width: calc(100vw - var(--scroll-bar-width));
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .container {
@@ -1502,11 +1505,11 @@ body {
   margin-left: 0rem;
 }
 
-.projects-section-jpgage {
+.projects-section-webpage {
   padding-top: 0;
 }
 
-.projects-section-jpgage .projects-section-top {
+.projects-section-webpage .projects-section-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1525,7 +1528,7 @@ body {
   padding-bottom: 3rem;
 }
 
-.projects-section-jpgage .projects-section-top .projects-header {
+.projects-section-webpage .projects-section-top .projects-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1546,12 +1549,12 @@ body {
   margin-bottom: 0;
 }
 
-.projects-section-jpgage .projects-section-top .projects-header p {
+.projects-section-webpage .projects-section-top .projects-header p {
   margin-top: 1rem;
   width: 100%;
 }
 
-.projects-section-jpgage .projects-section-top .projects-section-navigation {
+.projects-section-webpage .projects-section-top .projects-section-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1566,11 +1569,11 @@ body {
           justify-content: space-between;
 }
 
-.projects-section-jpgage .projects-section-top .projects-section-navigation .button-text {
+.projects-section-webpage .projects-section-top .projects-section-navigation .button-text {
   margin-left: 2rem;
 }
 
-.projects-section-jpgage .projects-container-column {
+.projects-section-webpage .projects-container-column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1588,7 +1591,7 @@ body {
   width: 100%;
 }
 
-.projects-section-jpgage .projects-container-column .project-width {
+.projects-section-webpage .projects-container-column .project-width {
   position: absolute;
   width: 48.5%;
   -webkit-transition: 0.5s all ease;
@@ -1596,39 +1599,39 @@ body {
   z-index: 1;
 }
 
-.projects-section-jpgage .projects-container-column .project-width2 {
+.projects-section-webpage .projects-container-column .project-width2 {
   height: 20rem;
 }
 
-.projects-section-jpgage .projects-container-column .project-width3 {
+.projects-section-webpage .projects-container-column .project-width3 {
   height: 25rem;
 }
 
-.projects-section-jpgage .projects-container-column .project-width4 {
+.projects-section-webpage .projects-container-column .project-width4 {
   height: 25rem;
 }
 
-.projects-section-jpgage .projects-container-column .project-width5 {
+.projects-section-webpage .projects-container-column .project-width5 {
   height: 22rem;
 }
 
-.projects-section-jpgage .projects-container-column .project-width6 {
+.projects-section-webpage .projects-container-column .project-width6 {
   height: 21rem;
 }
 
-.projects-section-jpgage .projects-container-column .project-width7 {
+.projects-section-webpage .projects-container-column .project-width7 {
   height: 24rem;
 }
 
-.projects-section-jpgage .projects-container-column .project-width8 {
+.projects-section-webpage .projects-container-column .project-width8 {
   height: 24rem;
 }
 
-.projects-section-jpgage .projects-container-column .project-width9 {
+.projects-section-webpage .projects-container-column .project-width9 {
   height: 24rem;
 }
 
-.projects-section-jpgage .projects-container-column .project-width10 {
+.projects-section-webpage .projects-container-column .project-width10 {
   height: 24rem;
 }
 
@@ -2493,7 +2496,7 @@ body {
   .clients-section .clients-wrapper .client10 {
     margin-bottom: 0;
   }
-  .projects-section-jpgage .projects-container .project {
+  .projects-section-webpage .projects-container .project {
     width: 48%;
   }
   .project-section .project-fixed-info {
@@ -2541,10 +2544,10 @@ body {
     width: 50%;
     padding: 1rem 1rem;
   }
-  .projects-section-jpgage {
+  .projects-section-webpage {
     padding-top: 0;
   }
-  .projects-section-jpgage .projects-section-top {
+  .projects-section-webpage .projects-section-top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2562,17 +2565,17 @@ body {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .projects-section-jpgage .projects-section-top .projects-header {
+  .projects-section-webpage .projects-section-top .projects-header {
     width: 60%;
   }
-  .projects-section-jpgage .projects-section-top .projects-section-navigation {
+  .projects-section-webpage .projects-section-top .projects-section-navigation {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     width: 100%;
     margin-top: 1rem;
   }
-  .projects-section-jpgage .projects-section-top .projects-section-navigation .button-text {
+  .projects-section-webpage .projects-section-top .projects-section-navigation .button-text {
     margin-left: 0;
     margin-right: 2rem;
   }
@@ -2845,24 +2848,24 @@ body {
     margin-bottom: 1rem;
     width: 100%;
   }
-  .projects-section-jpgage .projects-section-top {
+  .projects-section-webpage .projects-section-top {
     padding-bottom: 1rem;
   }
-  .projects-section-jpgage .projects-section-top .projects-header {
+  .projects-section-webpage .projects-section-top .projects-header {
     width: 100%;
   }
-  .projects-section-jpgage .projects-section-top .projects-section-navigation {
+  .projects-section-webpage .projects-section-top .projects-section-navigation {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%;
     margin-top: 1rem;
   }
-  .projects-section-jpgage .projects-section-top .projects-section-navigation .button-text {
+  .projects-section-webpage .projects-section-top .projects-section-navigation .button-text {
     margin-left: 0;
     margin-right: 0;
   }
-  .projects-section-jpgage .projects-container .project {
+  .projects-section-webpage .projects-container .project {
     width: 100%;
     height: 25rem;
   }
@@ -3072,11 +3075,11 @@ body {
     margin: 0;
     margin-bottom: 0.5rem;
   }
-  .projects-section-jpgage .projects-section-top .projects-section-navigation {
+  .projects-section-webpage .projects-section-top .projects-section-navigation {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .projects-section-jpgage .projects-section-top .projects-section-navigation .button-text {
+  .projects-section-webpage .projects-section-top .projects-section-navigation .button-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
