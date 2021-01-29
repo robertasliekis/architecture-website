@@ -81,8 +81,6 @@ div {
 body {
   width: calc(100vw - var(--scroll-bar-width));
   height: 100%;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
 .container {
@@ -364,6 +362,9 @@ body {
 
 .website-wrapper {
   width: 100%;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   position: relative;
   background-color: white;
   display: -webkit-box;
