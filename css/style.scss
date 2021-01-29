@@ -172,7 +172,7 @@ body {
   .navbar {
     .website-logo:hover {
       .website-logo-icon {
-        background-image: url(../images/logo02.webp);
+        background-image: url(../images/logo02.png);
       }
       .website-logo-text {
         color: var(--global-color-orange);
@@ -412,7 +412,7 @@ body {
     @include flexCenter();
     cursor: pointer;
     .website-logo-icon {
-      background-image: url(../images/logo01.webp), url(../images/logo01.png);
+      background-image: url(../images/logo01.png);
       background-position: center;
       background-size: cover;
       width: 5rem;
@@ -738,14 +738,14 @@ body {
   }
 
   .background-image1 {
-    background-image: url(../images/background01.webp), url(../images/background01.jpg);
+    background-image: url(../images/background01.jpg);
   }
   .background-image2 {
-    background-image: url(../images/background02.webp), url(../images/background02.jpg);
+    background-image: url(../images/background02.jpg);
     justify-content: flex-end;
   }
   .background-image3 {
-    background-image: url(../images/background03.webp), url(../images/background03.jpg);
+    background-image: url(../images/background03.jpg);
     flex-direction: column;
     align-items: flex-start;
   }
@@ -838,34 +838,34 @@ body {
         }
       }
       .project-image1 {
-        background-image: url(../images/project01.webp), url(../images/project01.jpg);
+        background-image: url(../images/project01.jpg);
       }
       .project-image2 {
-        background-image: url(../images/project02.webp), url(../images/project02.jpg);
+        background-image: url(../images/project02.jpg);
       }
       .project-image3 {
-        background-image: url(../images/project03.webp), url(../images/project03.jpg);
+        background-image: url(../images/project03.jpg);
       }
       .project-image4 {
-        background-image: url(../images/project04.webp), url(../images/project04.jpg);
+        background-image: url(../images/project04.jpg);
       }
       .project-image5 {
-        background-image: url(../images/project05.webp), url(../images/project05.jpg);
+        background-image: url(../images/project05.jpg);
       }
       .project-image6 {
-        background-image: url(../images/project06.webp), url(../images/project06.jpg);
+        background-image: url(../images/project06.jpg);
       }
       .project-image7 {
-        background-image: url(../images/project07.webp), url(../images/project07.jpg);
+        background-image: url(../images/project07.jpg);
       }
       .project-image8 {
-        background-image: url(../images/project08.webp), url(../images/project08.jpg);
+        background-image: url(../images/project08.jpg);
       }
       .project-image9 {
-        background-image: url(../images/project09.webp), url(../images/project09.jpg);
+        background-image: url(../images/project09.jpg);
       }
       .project-image10 {
-        background-image: url(../images/project10.webp), url(../images/project10.jpg);
+        background-image: url(../images/project10.jpg);
       }
     }
 
@@ -951,34 +951,34 @@ body {
         text-align: center;
       }
       .client-image1 {
-        background-image: url(../images/clients01.webp);
+        background-image: url(../images/clients01.jpg);
       }
       .client-image2 {
-        background-image: url(../images/clients02.webp);
+        background-image: url(../images/clients02.jpg);
       }
       .client-image3 {
-        background-image: url(../images/clients03.webp);
+        background-image: url(../images/clients03.jpg);
       }
       .client-image4 {
-        background-image: url(../images/clients04.webp);
+        background-image: url(../images/clients04.jpg);
       }
       .client-image5 {
-        background-image: url(../images/clients05.webp);
+        background-image: url(../images/clients05.jpg);
       }
       .client-image6 {
-        background-image: url(../images/clients06.webp);
+        background-image: url(../images/clients06.jpg);
       }
       .client-image7 {
-        background-image: url(../images/clients07.webp);
+        background-image: url(../images/clients07.jpg);
       }
       .client-image8 {
-        background-image: url(../images/clients08.webp);
+        background-image: url(../images/clients08.jpg);
       }
       .client-image9 {
-        background-image: url(../images/clients09.webp);
+        background-image: url(../images/clients09.jpg);
       }
       .client-image10 {
-        background-image: url(../images/clients10.webp);
+        background-image: url(../images/clients10.jpg);
       }
     }
     .client6,
@@ -1025,16 +1025,16 @@ body {
       }
 
       .article-image1 {
-        background-image: url(../images/news01.webp);
+        background-image: url(../images/news01.jpg);
       }
       .article-image2 {
-        background-image: url(../images/news02.webp);
+        background-image: url(../images/news02.jpg);
       }
       .article-image3 {
-        background-image: url(../images/news03.webp);
+        background-image: url(../images/news03.jpg);
       }
       .article-image4 {
-        background-image: url(../images/news04.webp);
+        background-image: url(../images/news04.jpg);
       }
       .article-text {
         @include flexCenterColumn();
@@ -1081,7 +1081,7 @@ body {
 //index.html page end
 
 //projects.html page start
-.projects-section-webpage {
+.projects-section-jpgage {
   padding-top: 0;
   .projects-section-top {
     @include flexCenterBetween();
@@ -1195,22 +1195,22 @@ body {
       background-size: cover;
     }
     .project-image1 {
-      background-image: url(../images/project1/project1_1.webp);
+      background-image: url(../images/project1/project1_1.jpg);
     }
     .project-image2 {
-      background-image: url(../images/project1/project1_2.webp);
+      background-image: url(../images/project1/project1_2.jpg);
     }
     .project-image3 {
-      background-image: url(../images/project1/project1_3.webp);
+      background-image: url(../images/project1/project1_3.jpg);
     }
     .project-image4 {
-      background-image: url(../images/project1/project1_4.webp);
+      background-image: url(../images/project1/project1_4.jpg);
     }
     .project-image5 {
-      background-image: url(../images/project1/project1_5.webp);
+      background-image: url(../images/project1/project1_5.jpg);
     }
     .project-image6 {
-      background-image: url(../images/project1/project1_6.webp);
+      background-image: url(../images/project1/project1_6.jpg);
     }
   }
 }
@@ -1225,7 +1225,7 @@ body {
     height: 70vh;
     background-position: center;
     background-size: cover;
-    background-image: url(../images/work1.webp);
+    background-image: url(../images/work1.jpg);
   }
 }
 
@@ -1249,7 +1249,7 @@ body {
   height: 60vh;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/people01.webp);
+  background-image: url(../images/people01.jpg);
   .people-section-text {
     background-color: rgba($color: #ffffff, $alpha: 0.8);
     width: 40%;
@@ -1298,19 +1298,19 @@ body {
       background-size: cover;
     }
     .member-image1 {
-      background-image: url(../images/member01.webp);
+      background-image: url(../images/member01.jpg);
     }
     .member-image2 {
-      background-image: url(../images/member02.webp);
+      background-image: url(../images/member02.jpg);
     }
     .member-image3 {
-      background-image: url(../images/member03.webp);
+      background-image: url(../images/member03.jpg);
     }
     .member-image4 {
-      background-image: url(../images/member04.webp);
+      background-image: url(../images/member04.jpg);
     }
     .member-image5 {
-      background-image: url(../images/member05.webp);
+      background-image: url(../images/member05.jpg);
     }
   }
 }
@@ -1425,7 +1425,7 @@ body {
     height: 50vh;
     background-position: center;
     background-size: cover;
-    background-image: url(../images/article01.webp);
+    background-image: url(../images/article01.jpg);
   }
   .article-text {
     @include flexCenterColumn();
@@ -1622,7 +1622,7 @@ body {
   }
 
   //projects.html start
-  .projects-section-webpage {
+  .projects-section-jpgage {
     .projects-container {
       .project {
         width: 48%;
@@ -1696,7 +1696,7 @@ body {
   }
 
   //projects.html start
-  .projects-section-webpage {
+  .projects-section-jpgage {
     padding-top: 0;
 
     .projects-section-top {
@@ -1957,7 +1957,7 @@ body {
   }
 
   //projects.html start
-  .projects-section-webpage {
+  .projects-section-jpgage {
     .projects-section-top {
       padding-bottom: 1rem;
       .projects-header {
@@ -2162,7 +2162,7 @@ body {
     }
   }
   //projects.html start
-  .projects-section-webpage {
+  .projects-section-jpgage {
     .projects-section-top {
       .projects-section-navigation {
         flex-wrap: wrap;

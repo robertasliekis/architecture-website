@@ -166,7 +166,7 @@ body {
     background-color: var(--global-color-orange);
   }
   .navbar .website-logo:hover .website-logo-icon {
-    background-image: url(../images/logo02.webp);
+    background-image: url(../images/logo02.png);
   }
   .navbar .website-logo:hover .website-logo-text {
     color: var(--global-color-orange);
@@ -420,7 +420,7 @@ body {
 }
 
 .navbar .website-logo .website-logo-icon {
-  background-image: url(../images/logo01.webp), url(../images/logo01.png);
+  background-image: url(../images/logo01.png);
   background-position: center;
   background-size: cover;
   width: 5rem;
@@ -924,18 +924,18 @@ body {
 }
 
 .background-section .background-image1 {
-  background-image: url(../images/background01.webp), url(../images/background01.jpg);
+  background-image: url(../images/background01.jpg);
 }
 
 .background-section .background-image2 {
-  background-image: url(../images/background02.webp), url(../images/background02.jpg);
+  background-image: url(../images/background02.jpg);
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
 .background-section .background-image3 {
-  background-image: url(../images/background03.webp), url(../images/background03.jpg);
+  background-image: url(../images/background03.jpg);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1083,43 +1083,43 @@ body {
 }
 
 .projects-section .projects-container .project .project-image1 {
-  background-image: url(../images/project01.webp), url(../images/project01.jpg);
+  background-image: url(../images/project01.jpg);
 }
 
 .projects-section .projects-container .project .project-image2 {
-  background-image: url(../images/project02.webp), url(../images/project02.jpg);
+  background-image: url(../images/project02.jpg);
 }
 
 .projects-section .projects-container .project .project-image3 {
-  background-image: url(../images/project03.webp), url(../images/project03.jpg);
+  background-image: url(../images/project03.jpg);
 }
 
 .projects-section .projects-container .project .project-image4 {
-  background-image: url(../images/project04.webp), url(../images/project04.jpg);
+  background-image: url(../images/project04.jpg);
 }
 
 .projects-section .projects-container .project .project-image5 {
-  background-image: url(../images/project05.webp), url(../images/project05.jpg);
+  background-image: url(../images/project05.jpg);
 }
 
 .projects-section .projects-container .project .project-image6 {
-  background-image: url(../images/project06.webp), url(../images/project06.jpg);
+  background-image: url(../images/project06.jpg);
 }
 
 .projects-section .projects-container .project .project-image7 {
-  background-image: url(../images/project07.webp), url(../images/project07.jpg);
+  background-image: url(../images/project07.jpg);
 }
 
 .projects-section .projects-container .project .project-image8 {
-  background-image: url(../images/project08.webp), url(../images/project08.jpg);
+  background-image: url(../images/project08.jpg);
 }
 
 .projects-section .projects-container .project .project-image9 {
-  background-image: url(../images/project09.webp), url(../images/project09.jpg);
+  background-image: url(../images/project09.jpg);
 }
 
 .projects-section .projects-container .project .project-image10 {
-  background-image: url(../images/project10.webp), url(../images/project10.jpg);
+  background-image: url(../images/project10.jpg);
 }
 
 .projects-section .projects-container .project1 {
@@ -1279,43 +1279,43 @@ body {
 }
 
 .clients-section .clients-wrapper .client .client-image1 {
-  background-image: url(../images/clients01.webp);
+  background-image: url(../images/clients01.jpg);
 }
 
 .clients-section .clients-wrapper .client .client-image2 {
-  background-image: url(../images/clients02.webp);
+  background-image: url(../images/clients02.jpg);
 }
 
 .clients-section .clients-wrapper .client .client-image3 {
-  background-image: url(../images/clients03.webp);
+  background-image: url(../images/clients03.jpg);
 }
 
 .clients-section .clients-wrapper .client .client-image4 {
-  background-image: url(../images/clients04.webp);
+  background-image: url(../images/clients04.jpg);
 }
 
 .clients-section .clients-wrapper .client .client-image5 {
-  background-image: url(../images/clients05.webp);
+  background-image: url(../images/clients05.jpg);
 }
 
 .clients-section .clients-wrapper .client .client-image6 {
-  background-image: url(../images/clients06.webp);
+  background-image: url(../images/clients06.jpg);
 }
 
 .clients-section .clients-wrapper .client .client-image7 {
-  background-image: url(../images/clients07.webp);
+  background-image: url(../images/clients07.jpg);
 }
 
 .clients-section .clients-wrapper .client .client-image8 {
-  background-image: url(../images/clients08.webp);
+  background-image: url(../images/clients08.jpg);
 }
 
 .clients-section .clients-wrapper .client .client-image9 {
-  background-image: url(../images/clients09.webp);
+  background-image: url(../images/clients09.jpg);
 }
 
 .clients-section .clients-wrapper .client .client-image10 {
-  background-image: url(../images/clients10.webp);
+  background-image: url(../images/clients10.jpg);
 }
 
 .clients-section .clients-wrapper .client6,
@@ -1409,19 +1409,19 @@ body {
 }
 
 .news-section .articles-wrapper .article .article-image1 {
-  background-image: url(../images/news01.webp);
+  background-image: url(../images/news01.jpg);
 }
 
 .news-section .articles-wrapper .article .article-image2 {
-  background-image: url(../images/news02.webp);
+  background-image: url(../images/news02.jpg);
 }
 
 .news-section .articles-wrapper .article .article-image3 {
-  background-image: url(../images/news03.webp);
+  background-image: url(../images/news03.jpg);
 }
 
 .news-section .articles-wrapper .article .article-image4 {
-  background-image: url(../images/news04.webp);
+  background-image: url(../images/news04.jpg);
 }
 
 .news-section .articles-wrapper .article .article-text {
@@ -1502,11 +1502,11 @@ body {
   margin-left: 0rem;
 }
 
-.projects-section-webpage {
+.projects-section-jpgage {
   padding-top: 0;
 }
 
-.projects-section-webpage .projects-section-top {
+.projects-section-jpgage .projects-section-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1525,7 +1525,7 @@ body {
   padding-bottom: 3rem;
 }
 
-.projects-section-webpage .projects-section-top .projects-header {
+.projects-section-jpgage .projects-section-top .projects-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1546,12 +1546,12 @@ body {
   margin-bottom: 0;
 }
 
-.projects-section-webpage .projects-section-top .projects-header p {
+.projects-section-jpgage .projects-section-top .projects-header p {
   margin-top: 1rem;
   width: 100%;
 }
 
-.projects-section-webpage .projects-section-top .projects-section-navigation {
+.projects-section-jpgage .projects-section-top .projects-section-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1566,11 +1566,11 @@ body {
           justify-content: space-between;
 }
 
-.projects-section-webpage .projects-section-top .projects-section-navigation .button-text {
+.projects-section-jpgage .projects-section-top .projects-section-navigation .button-text {
   margin-left: 2rem;
 }
 
-.projects-section-webpage .projects-container-column {
+.projects-section-jpgage .projects-container-column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1588,7 +1588,7 @@ body {
   width: 100%;
 }
 
-.projects-section-webpage .projects-container-column .project-width {
+.projects-section-jpgage .projects-container-column .project-width {
   position: absolute;
   width: 48.5%;
   -webkit-transition: 0.5s all ease;
@@ -1596,39 +1596,39 @@ body {
   z-index: 1;
 }
 
-.projects-section-webpage .projects-container-column .project-width2 {
+.projects-section-jpgage .projects-container-column .project-width2 {
   height: 20rem;
 }
 
-.projects-section-webpage .projects-container-column .project-width3 {
+.projects-section-jpgage .projects-container-column .project-width3 {
   height: 25rem;
 }
 
-.projects-section-webpage .projects-container-column .project-width4 {
+.projects-section-jpgage .projects-container-column .project-width4 {
   height: 25rem;
 }
 
-.projects-section-webpage .projects-container-column .project-width5 {
+.projects-section-jpgage .projects-container-column .project-width5 {
   height: 22rem;
 }
 
-.projects-section-webpage .projects-container-column .project-width6 {
+.projects-section-jpgage .projects-container-column .project-width6 {
   height: 21rem;
 }
 
-.projects-section-webpage .projects-container-column .project-width7 {
+.projects-section-jpgage .projects-container-column .project-width7 {
   height: 24rem;
 }
 
-.projects-section-webpage .projects-container-column .project-width8 {
+.projects-section-jpgage .projects-container-column .project-width8 {
   height: 24rem;
 }
 
-.projects-section-webpage .projects-container-column .project-width9 {
+.projects-section-jpgage .projects-container-column .project-width9 {
   height: 24rem;
 }
 
-.projects-section-webpage .projects-container-column .project-width10 {
+.projects-section-jpgage .projects-container-column .project-width10 {
   height: 24rem;
 }
 
@@ -1734,27 +1734,27 @@ body {
 }
 
 .project-section .project-images-container .project-image1 {
-  background-image: url(../images/project1/project1_1.webp);
+  background-image: url(../images/project1/project1_1.jpg);
 }
 
 .project-section .project-images-container .project-image2 {
-  background-image: url(../images/project1/project1_2.webp);
+  background-image: url(../images/project1/project1_2.jpg);
 }
 
 .project-section .project-images-container .project-image3 {
-  background-image: url(../images/project1/project1_3.webp);
+  background-image: url(../images/project1/project1_3.jpg);
 }
 
 .project-section .project-images-container .project-image4 {
-  background-image: url(../images/project1/project1_4.webp);
+  background-image: url(../images/project1/project1_4.jpg);
 }
 
 .project-section .project-images-container .project-image5 {
-  background-image: url(../images/project1/project1_5.webp);
+  background-image: url(../images/project1/project1_5.jpg);
 }
 
 .project-section .project-images-container .project-image6 {
-  background-image: url(../images/project1/project1_6.webp);
+  background-image: url(../images/project1/project1_6.jpg);
 }
 
 .studio-section {
@@ -1779,7 +1779,7 @@ body {
   height: 70vh;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/work1.webp);
+  background-image: url(../images/work1.jpg);
 }
 
 .studio-specializations {
@@ -1815,7 +1815,7 @@ body {
   height: 60vh;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/people01.webp);
+  background-image: url(../images/people01.jpg);
 }
 
 .people-section .people-section-text {
@@ -1936,23 +1936,23 @@ body {
 }
 
 .team-section .member .member-image1 {
-  background-image: url(../images/member01.webp);
+  background-image: url(../images/member01.jpg);
 }
 
 .team-section .member .member-image2 {
-  background-image: url(../images/member02.webp);
+  background-image: url(../images/member02.jpg);
 }
 
 .team-section .member .member-image3 {
-  background-image: url(../images/member03.webp);
+  background-image: url(../images/member03.jpg);
 }
 
 .team-section .member .member-image4 {
-  background-image: url(../images/member04.webp);
+  background-image: url(../images/member04.jpg);
 }
 
 .team-section .member .member-image5 {
-  background-image: url(../images/member05.webp);
+  background-image: url(../images/member05.jpg);
 }
 
 .awards-section {
@@ -2189,7 +2189,7 @@ body {
   height: 50vh;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/article01.webp);
+  background-image: url(../images/article01.jpg);
 }
 
 .article-section .article-text {
@@ -2493,7 +2493,7 @@ body {
   .clients-section .clients-wrapper .client10 {
     margin-bottom: 0;
   }
-  .projects-section-webpage .projects-container .project {
+  .projects-section-jpgage .projects-container .project {
     width: 48%;
   }
   .project-section .project-fixed-info {
@@ -2541,10 +2541,10 @@ body {
     width: 50%;
     padding: 1rem 1rem;
   }
-  .projects-section-webpage {
+  .projects-section-jpgage {
     padding-top: 0;
   }
-  .projects-section-webpage .projects-section-top {
+  .projects-section-jpgage .projects-section-top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2562,17 +2562,17 @@ body {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .projects-section-webpage .projects-section-top .projects-header {
+  .projects-section-jpgage .projects-section-top .projects-header {
     width: 60%;
   }
-  .projects-section-webpage .projects-section-top .projects-section-navigation {
+  .projects-section-jpgage .projects-section-top .projects-section-navigation {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     width: 100%;
     margin-top: 1rem;
   }
-  .projects-section-webpage .projects-section-top .projects-section-navigation .button-text {
+  .projects-section-jpgage .projects-section-top .projects-section-navigation .button-text {
     margin-left: 0;
     margin-right: 2rem;
   }
@@ -2845,24 +2845,24 @@ body {
     margin-bottom: 1rem;
     width: 100%;
   }
-  .projects-section-webpage .projects-section-top {
+  .projects-section-jpgage .projects-section-top {
     padding-bottom: 1rem;
   }
-  .projects-section-webpage .projects-section-top .projects-header {
+  .projects-section-jpgage .projects-section-top .projects-header {
     width: 100%;
   }
-  .projects-section-webpage .projects-section-top .projects-section-navigation {
+  .projects-section-jpgage .projects-section-top .projects-section-navigation {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%;
     margin-top: 1rem;
   }
-  .projects-section-webpage .projects-section-top .projects-section-navigation .button-text {
+  .projects-section-jpgage .projects-section-top .projects-section-navigation .button-text {
     margin-left: 0;
     margin-right: 0;
   }
-  .projects-section-webpage .projects-container .project {
+  .projects-section-jpgage .projects-container .project {
     width: 100%;
     height: 25rem;
   }
@@ -3072,11 +3072,11 @@ body {
     margin: 0;
     margin-bottom: 0.5rem;
   }
-  .projects-section-webpage .projects-section-top .projects-section-navigation {
+  .projects-section-jpgage .projects-section-top .projects-section-navigation {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .projects-section-webpage .projects-section-top .projects-section-navigation .button-text {
+  .projects-section-jpgage .projects-section-top .projects-section-navigation .button-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
