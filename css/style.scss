@@ -412,7 +412,7 @@ body {
     @include flexCenter();
     cursor: pointer;
     .website-logo-icon {
-      background-image: url(../images/logo01.webp);
+      background-image: url(../images/logo01.webp), url(../images/logo01.png);
       background-position: center;
       background-size: cover;
       width: 5rem;
@@ -738,14 +738,14 @@ body {
   }
 
   .background-image1 {
-    background-image: url(../images/background01.webp);
+    background-image: url(../images/background01.webp), url(../images/background01.jpg);
   }
   .background-image2 {
-    background-image: url(../images/background02.webp);
+    background-image: url(../images/background02.webp), url(../images/background02.jpg);
     justify-content: flex-end;
   }
   .background-image3 {
-    background-image: url(../images/background03.webp);
+    background-image: url(../images/background03.webp), url(../images/background03.jpg);
     flex-direction: column;
     align-items: flex-start;
   }
@@ -838,34 +838,34 @@ body {
         }
       }
       .project-image1 {
-        background-image: url(../images/project01.webp);
+        background-image: url(../images/project01.webp), url(../images/project01.jpg);
       }
       .project-image2 {
-        background-image: url(../images/project02.webp);
+        background-image: url(../images/project02.webp), url(../images/project02.jpg);
       }
       .project-image3 {
-        background-image: url(../images/project03.webp);
+        background-image: url(../images/project03.webp), url(../images/project03.jpg);
       }
       .project-image4 {
-        background-image: url(../images/project04.webp);
+        background-image: url(../images/project04.webp), url(../images/project04.jpg);
       }
       .project-image5 {
-        background-image: url(../images/project05.webp);
+        background-image: url(../images/project05.webp), url(../images/project05.jpg);
       }
       .project-image6 {
-        background-image: url(../images/project06.webp);
+        background-image: url(../images/project06.webp), url(../images/project06.jpg);
       }
       .project-image7 {
-        background-image: url(../images/project07.webp);
+        background-image: url(../images/project07.webp), url(../images/project07.jpg);
       }
       .project-image8 {
-        background-image: url(../images/project08.webp);
+        background-image: url(../images/project08.webp), url(../images/project08.jpg);
       }
       .project-image9 {
-        background-image: url(../images/project09.webp);
+        background-image: url(../images/project09.webp), url(../images/project09.jpg);
       }
       .project-image10 {
-        background-image: url(../images/project10.webp);
+        background-image: url(../images/project10.webp), url(../images/project10.jpg);
       }
     }
 
@@ -1056,7 +1056,6 @@ body {
   justify-content: space-between;
   height: 6rem;
   width: calc(100% - var(--scroll-bar-width));
-
   .button-arrow {
     position: absolute;
     transform: translate(-50%, -50%);
