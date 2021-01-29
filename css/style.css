@@ -69,6 +69,15 @@ body {
   font-size: 1.1rem;
 }
 
+div {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   width: calc(100vw - var(--scroll-bar-width));
   height: 100%;
