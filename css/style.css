@@ -420,7 +420,7 @@ body {
 }
 
 .navbar .website-logo .website-logo-icon {
-  background-image: url(../images/logo01.webp);
+  background-image: url(../images/logo01.webp), url(../images/logo01.png);
   background-position: center;
   background-size: cover;
   width: 5rem;
@@ -924,18 +924,18 @@ body {
 }
 
 .background-section .background-image1 {
-  background-image: url(../images/background01.webp);
+  background-image: url(../images/background01.webp), url(../images/background01.jpg);
 }
 
 .background-section .background-image2 {
-  background-image: url(../images/background02.webp);
+  background-image: url(../images/background02.webp), url(../images/background02.jpg);
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
 .background-section .background-image3 {
-  background-image: url(../images/background03.webp);
+  background-image: url(../images/background03.webp), url(../images/background03.jpg);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1083,43 +1083,43 @@ body {
 }
 
 .projects-section .projects-container .project .project-image1 {
-  background-image: url(../images/project01.webp);
+  background-image: url(../images/project01.webp), url(../images/project01.jpg);
 }
 
 .projects-section .projects-container .project .project-image2 {
-  background-image: url(../images/project02.webp);
+  background-image: url(../images/project02.webp), url(../images/project02.jpg);
 }
 
 .projects-section .projects-container .project .project-image3 {
-  background-image: url(../images/project03.webp);
+  background-image: url(../images/project03.webp), url(../images/project03.jpg);
 }
 
 .projects-section .projects-container .project .project-image4 {
-  background-image: url(../images/project04.webp);
+  background-image: url(../images/project04.webp), url(../images/project04.jpg);
 }
 
 .projects-section .projects-container .project .project-image5 {
-  background-image: url(../images/project05.webp);
+  background-image: url(../images/project05.webp), url(../images/project05.jpg);
 }
 
 .projects-section .projects-container .project .project-image6 {
-  background-image: url(../images/project06.webp);
+  background-image: url(../images/project06.webp), url(../images/project06.jpg);
 }
 
 .projects-section .projects-container .project .project-image7 {
-  background-image: url(../images/project07.webp);
+  background-image: url(../images/project07.webp), url(../images/project07.jpg);
 }
 
 .projects-section .projects-container .project .project-image8 {
-  background-image: url(../images/project08.webp);
+  background-image: url(../images/project08.webp), url(../images/project08.jpg);
 }
 
 .projects-section .projects-container .project .project-image9 {
-  background-image: url(../images/project09.webp);
+  background-image: url(../images/project09.webp), url(../images/project09.jpg);
 }
 
 .projects-section .projects-container .project .project-image10 {
-  background-image: url(../images/project10.webp);
+  background-image: url(../images/project10.webp), url(../images/project10.jpg);
 }
 
 .projects-section .projects-container .project1 {
